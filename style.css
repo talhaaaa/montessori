@@ -1,0 +1,1411 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.vik {
+    padding-bottom: 60px;
+}
+
+.header-logo {
+    padding-top: 30px;
+    width: 200px;
+
+}
+
+.header-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.header-link {
+    list-style: none;
+
+}
+
+.header-anchor {
+    text-decoration: none;
+    padding-left: 10px;
+    color: black;
+    font-family: 'Comic Neue';
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.header-flag {
+    width: 200px;
+    padding-top: 20px;
+
+}
+
+.mont-text {
+    padding-top: 40px;
+}
+
+.Explore {
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    background-color: white;
+}
+
+.montessori {
+
+    font-family: 'Comic Neue';
+    font-weight: 700;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.maria-mont {
+    font-family: 'Comic Neue';
+    font-weight: 400;
+}
+
+.mariaa {
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.explore {
+    padding: 3px 25px;
+    background-color: transparent;
+    border-radius: 25px;
+    border: 3px solid black;
+    color: black;
+    font-family: 'Comic Neue';
+    font-weight: 700;
+    font-size: 20px;
+    transition: .3s all;
+}
+
+.explore:hover {
+    background-color: #fec400;
+    border-color: #fec400;
+    color: white;
+}
+
+.mont-child {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.mid-banner {
+    background-color: gold;
+    width: 100%;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.mid-heading {
+
+    font-family: 'Comic Neue';
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.mid-text {
+
+    font-family: 'Comic Neue';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+
+}
+
+.core-value {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.core-heading {
+    text-align: center;
+
+
+
+}
+
+.core-heading1 {
+    font-family: 'Comic Neue';
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border: 1.5px solid black;
+    height: 250px;
+}
+
+.box1 {
+    background-image: url(./images/value.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+
+}
+
+
+.value1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+
+.box2 {
+    background-image: url(./images/value.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.value2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.box3 {
+    background-image: url(./images/value.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.value3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.imagine {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comic Neue';
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.respect {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comic Neue';
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.community {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comic Neue';
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.active {
+    background-color: lightgray;
+    padding-bottom: 60px;
+    padding-top: 60px;
+
+}
+
+.activities-img {
+    width: 100%;
+}
+
+
+.skills {
+    font-family: 'Comic Neue';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.activity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-family: 'Comic Neue';
+
+}
+
+.activities {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 40px;
+    font-family: 'Comic Neue';
+}
+
+.swim {
+    background-image: url(./images/frame.png);
+    background-size: cover;
+    width: 211px;
+    height: 215px;
+}
+
+.garden {
+    background-image: url(./images/frame.png);
+    background-size: cover;
+    width: 211px;
+    height: 215px;
+}
+
+.play {
+    background-image: url(./images/frame.png);
+    background-size: cover;
+    width: 211px;
+    height: 215px;
+}
+
+.water {
+    background-image: url(./images/frame.png);
+    background-size: cover;
+    width: 211px;
+    height: 215px;
+}
+
+.bike {
+    background-image: url(./images/frame.png);
+    background-size: cover;
+    width: 211px;
+    height: 215px;
+}
+
+.sand {
+    background-image: url(./images/frame.png);
+    background-size: cover;
+    width: 211px;
+    height: 215px;
+}
+
+.swim {
+    font-family: 'Comic Neue';
+}
+
+.swimmings {
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.swims {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    object-fit: cover;
+}
+
+.swimming {
+    height: 170px;
+}
+
+.garden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    object-fit: cover;
+}
+
+.gardening {
+    height: 170px;
+}
+
+.gardens {
+    font-family: 'Comic Neue';
+}
+
+.gardenings {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.plays {
+    font-family: 'Comic Neue';
+}
+
+.area {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    object-fit: cover;
+}
+
+.playing {
+    height: 170px;
+}
+
+.waters {
+    font-family: 'Comic Neue';
+}
+
+.water-play {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.water {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    object-fit: cover;
+}
+
+.watering {
+    height: 170px;
+}
+
+.track {
+
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bikes {
+    font-family: 'Comic Neue';
+}
+
+.bike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    object-fit: cover;
+}
+
+.biking {
+    height: 170px;
+}
+
+.sands {
+    font-family: 'Comic Neue';
+}
+
+.tracks {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.sand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    object-fit: cover;
+}
+
+.sanding {
+    height: 170px;
+}
+
+.reach {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.form-heading {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+
+
+.form-control {
+
+    font-family: 'Comic Neue';
+    border: 1px solid blueviolet;
+    width: 100%;
+    outline: none;
+}
+
+input.form-control {
+    padding: 15px;
+    border: 1px solid blueviolet;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+input:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #fec400 !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 2px solid #fec400 !important;
+}
+
+
+.send {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: gold;
+    color: black;
+    border: 1px solid gold;
+    font-family: 'Comic Neue';
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.detail textarea {
+    height: 35vh;
+    border: 1px solid blueviolet;
+
+}
+
+.form-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container {
+    position: relative;
+
+}
+
+.input-container i {
+    position: absolute;
+    right: 13px;
+    top: 20px;
+    font-size: 17px;
+    color: gold;
+}
+
+.input-Email {
+    position: relative;
+
+
+}
+
+.input-Email i {
+    position: absolute;
+    right: 13px;
+    top: 20px;
+    font-size: 17px;
+    color: gold;
+
+}
+
+.input-address {
+    position: relative;
+}
+
+.input-address i {
+    position: absolute;
+    right: 13px;
+    top: 20px;
+    font-size: 17px;
+    color: gold;
+}
+
+.input-phone {
+    position: relative;
+
+}
+
+.input-phone i {
+    position: absolute;
+    right: 13px;
+    top: 20px;
+    font-size: 17px;
+    color: gold;
+}
+
+.benefit {
+
+    background-color: lightgrey;
+    height: auto;
+    padding: 60px 0px;
+    counter-reset: shape;
+}
+
+.proven {
+
+    margin: 10px 0 30px;
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+
+.learn {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 270px;
+
+    position: relative;
+
+}
+
+.learn1 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 270px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.side-pic {
+    width: 85px;
+}
+
+
+
+.side-flag {
+    position: absolute;
+    left: -13px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.side-flag::before {
+
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    counter-increment: shape;
+    content: "0" counter(shape);
+    font-family: 'Comic Neue';
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.learn-text {
+    padding-top: 40px;
+}
+
+.learn-text1 {
+    padding-top: 40px;
+}
+
+.learns {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.learns1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.learning {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+
+.learning1 {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+
+.self {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 270px;
+
+    position: relative;
+
+}
+
+.self1 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 270px;
+    margin-top: 30px;
+    position: relative;
+
+}
+
+.side-pic1 {
+    position: absolute;
+    left: -15px;
+    top: 17px;
+}
+
+.selfs {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.selfs1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.self-learning {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+.self-learning1 {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.self-develop {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 270px;
+
+    position: relative;
+}
+
+.self-develop1 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 270px;
+    margin-top: 30px;
+    position: relative;
+}
+
+
+.side-pic2 {
+    position: absolute;
+    left: -15px;
+    top: 17px;
+}
+
+.self-development {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.self-development1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.self-developer {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.self-developer1 {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.solve {
+
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 270px;
+    position: relative;
+
+}
+
+.solve1 {
+
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 270px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.side-pic3 {
+    position: absolute;
+    left: -15px;
+    top: 17px;
+}
+
+.solves {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.solves1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.solver {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.solver1 {
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.more {
+    background-color: gold;
+    font-family: 'Comic Neue';
+    font-weight: 700;
+    font-size: 25px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid gold;
+    margin-top: 20px;
+    border-radius: 5px;
+
+
+}
+
+.mores {
+    display: flex;
+    justify-content: center;
+}
+
+.fee {
+    background-color: gold;
+    padding: 60px 0px;
+}
+
+.fee-structure {
+    font-family: 'Comic Neue';
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.fee-btn {
+    background-color: gold;
+    color: black;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Comic Neue';
+    font-size: 25px;
+    font-weight: 700;
+    border: 2px solid black;
+}
+
+.fee-plan {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+
+}
+
+.center-img {
+    display: flex;
+    width: 100%;
+}
+
+.kid {
+    width: 20%;
+}
+
+.kids-images {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.contact {
+    background-color: lightgray;
+    padding: 60px 0px;
+}
+
+.footer-text {
+    padding-top: 20px;
+    font-family: 'Comic Neue';
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    padding-right: 100px;
+}
+
+.logo-unl {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-unl li {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: white;
+}
+
+.logo-unl li:nth-child(1) {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.logo-unl li:nth-child(2) {
+    background-color: black;
+}
+
+.logo-unl li:nth-child(3) {
+    background-color: #3b5998;
+}
+
+.logo-unl li:nth-child(4) {
+    background-color: yellow;
+}
+
+.logo-unl li:nth-child(5) {
+    background-color: #00cf4d;
+    margin-right: 0;
+}
+
+.school-activity {
+    font-family: 'Comic Neue';
+    font-size: 25px;
+    font-weight: 700;
+    color: gray;
+}
+
+.school {
+    font-family: 'Comic Neue';
+    padding-top: 50px;
+
+
+
+}
+
+.kids-activity {
+    line-height: 50px;
+
+    font-weight: 700;
+    font-family: 'Comic Neue';
+    padding: 0px;
+}
+
+.kids-activity1 {
+    list-style: none;
+
+
+}
+
+.informations {
+    font-family: 'Comic Neue';
+    padding-top: 50px;
+
+}
+
+.info-detail {
+    list-style: none;
+
+}
+
+.info {
+    font-family: 'Comic Neue';
+    font-size: 25px;
+    font-weight: 700;
+    color: #525251;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.info::after {
+    position: absolute;
+    content: "";
+    background-color: #525251;
+    width: 10%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+
+}
+
+.contact-info {
+    line-height: 35px;
+    padding: 0px;
+    font-weight: 700;
+}
+
+.informations i {
+    color: gold;
+    background-color: white;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.info-detail {
+    display: flex;
+    padding-bottom: 10px;
+
+
+}
+
+.our-info {
+    padding-left: 15px;
+}
+
+.last-line {
+    background-color: lightgray;
+    padding: 10px 0px;
+}
+
+.footer-line {
+    font-family: 'Comic Neue';
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+}
+
+.sidepanel {
+    height: 100vh;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    background-color: lightgray;
+    /* 0.5 second transition effect to slide in the sidepanel */
+    z-index: 1;
+}
+
+/* The sidepanel links */
+.sidepanel a {
+    padding: 0px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    display: flex;
+    font-family: 'Comic Neue';
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: gold;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+.box:hover {
+    background-color: black;
+    color: white;
+    transition: .3s all;
+}
+
+.box {
+    transition: .6s ease;
+}
+
+.send:hover {
+    background-color: black;
+    color: white;
+    transition: .3s all;
+}
+
+.more:hover {
+    background-color: black;
+    color: white;
+    transition: .3s all;
+}
+
+.fee-btn:hover {
+    background-color: black;
+    color: white;
+    transition: .3s all;
+}
+
+.learn:hover {
+    background-color: black;
+    color: white;
+    transition: .6s ease;
+
+}
+
+.learn {
+    transition: .6s ease;
+}
+
+
+.toggside {
+    display: none;
+    z-index: 1;
+
+}
+
+.flag-sc {
+    text-align: right;
+}
+
+.google-map {
+    width: 80%;
+    height: 150px;
+}
+
+
+
+@media (max-width:1200px) {
+    .montessori {
+        font-size: 35px;
+    }
+
+    .Explore {
+        margin-left: 0;
+    }
+
+    .learning {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1025px) {
+    .header-logo {
+        width: 150px;
+    }
+
+    .header-flag {
+        width: 150px;
+    }
+}
+
+@media (max-width:992px) {
+    .header-features {
+        display: none;
+    }
+
+    .toggside {
+        display: block !important;
+
+        position: fixed;
+        top: 8%;
+        right: 10px;
+        transform: translateY(-8%);
+
+    }
+
+    .our-info {
+        word-break: break-word;
+    }
+
+    .montessori {
+        font-size: 26px;
+    }
+
+    .header-logo {
+        width: 150px;
+    }
+
+    .header-flag {
+        width: 150px;
+    }
+
+    .sidepanel {
+        top: -54px;
+        right: -10px;
+    }
+
+    .mont-text {
+        padding-top: 0;
+    }
+
+    .explore {
+        border: 1px solid black;
+    }
+
+    .imagine {
+        font-size: 25px;
+    }
+
+    .respect {
+        font-size: 25px;
+    }
+
+    .community {
+        font-size: 25px;
+    }
+
+    .skills {
+        font-size: 20px;
+    }
+
+    .footer-text {
+        padding-right: 0;
+    }
+
+    .school {
+        text-align: center;
+    }
+
+    .google-map {
+        width: 100%;
+        height: 106px;
+    }
+
+}
+
+@media (max-width:769px) {
+    .google-map {
+        width: 245px;
+    }
+
+    .flag-sc {
+        text-align: center;
+    }
+}
+
+@media (max-width:767px) {
+    .montessori {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .form-image {
+        display: none;
+    }
+
+    .learns {
+        flex-flow: column;
+    }
+}
+
+@media (max-width:640px) {
+    .mid-heading {
+        font-size: 25px;
+    }
+
+    .mid-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:415px) {
+    .flag-sc {
+        text-align: left;
+    }
+
+    .school {
+        text-align: left;
+    }
+}
+
+@media (max-width:376px) {
+    .header-flag {
+        width: 120px;
+    }
+
+    .header-logo {
+        width: 120px;
+    }
+
+    .openbtn {
+        padding: 6px 12px;
+    }
+
+    .fee-structure {
+        font-size: 20px;
+    }
+
+    .fee-btn {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:320px) {
+    .toggside {
+        top: 7%;
+    }
+
+    .header-flag {
+        width: 100px;
+    }
+
+    .header-logo {
+        width: 100px;
+    }
+
+    .fee-structure {
+        font-size: 18px;
+    }
+
+    .fee-btn {
+        font-size: 18px;
+    }
+
+}
